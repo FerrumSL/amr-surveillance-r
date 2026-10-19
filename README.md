@@ -1,5 +1,7 @@
 # AMR surveillance workflow in R
 
+[![run-all](https://github.com/FerrumSL/amr-surveillance-r/actions/workflows/run-all.yml/badge.svg)](https://github.com/FerrumSL/amr-surveillance-r/actions/workflows/run-all.yml)
+
 R scripts that take a lab export of antibiotic test results and turn it into the usual
 surveillance outputs: a cleaned dataset, antibiograms, resistance over time with confidence
 intervals, and a short written summary. The heavy lifting is done by the
