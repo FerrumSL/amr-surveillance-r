@@ -1,0 +1,13 @@
+pair,organism,antibiotic,period,n_tested,n_resistant,pct_resistant,ci_low,ci_high,enough_isolates
+E. coli vs amoxicillin/clavulanic acid,E. coli,Amoxicillin/clavulanic acid,2002-2005,55,5,9.090909090909092,3.0180867845813206,19.953961577050094,TRUE
+E. coli vs amoxicillin/clavulanic acid,E. coli,Amoxicillin/clavulanic acid,2006-2009,68,3,4.411764705882353,0.9192195202787387,12.356262433177879,TRUE
+E. coli vs amoxicillin/clavulanic acid,E. coli,Amoxicillin/clavulanic acid,2010-2013,57,5,8.771929824561404,2.9098582817102385,19.29573305697034,TRUE
+E. coli vs amoxicillin/clavulanic acid,E. coli,Amoxicillin/clavulanic acid,2014-2017,75,22,29.333333333333332,19.38092844641601,40.97833488873568,TRUE
+E. coli vs ciprofloxacin,E. coli,Ciprofloxacin,2002-2005,51,2,3.9215686274509802,0.47849926947072935,13.458649112966414,TRUE
+E. coli vs ciprofloxacin,E. coli,Ciprofloxacin,2006-2009,67,7,10.447761194029852,4.3049378418968285,20.34892045358503,TRUE
+E. coli vs ciprofloxacin,E. coli,Ciprofloxacin,2010-2013,57,9,15.789473684210526,7.483116920051248,27.86826300687293,TRUE
+E. coli vs ciprofloxacin,E. coli,Ciprofloxacin,2014-2017,74,12,16.216216216216218,8.669896395830817,26.613580894077682,TRUE
+E. coli vs trimethoprim/sulfamethoxazole,E. coli,Trimethoprim/sulfamethoxazole,2002-2005,55,15,27.272727272727273,16.13796408334341,40.96194853448192,TRUE
+E. coli vs trimethoprim/sulfamethoxazole,E. coli,Trimethoprim/sulfamethoxazole,2006-2009,68,25,36.76470588235294,25.3897893943975,49.33209062234988,TRUE
+E. coli vs trimethoprim/sulfamethoxazole,E. coli,Trimethoprim/sulfamethoxazole,2010-2013,57,22,38.59649122807018,25.995468099812275,52.42515847564888,TRUE
+E. coli vs trimethoprim/sulfamethoxazole,E. coli,Trimethoprim/sulfamethoxazole,2014-2017,74,25,33.78378378378378,23.19271805431886,45.71759536421228,TRUE

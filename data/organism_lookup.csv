@@ -1,0 +1,5 @@
+raw_name,mo,note
+S. hominis,B_STPHY_HMNS,as.mo() picks Streptococcus hominis; the lab means Staphylococcus hominis
+L. delbrueckii,B_LCTBC_DLBR_LCTS,as.mo() drops the subspecies (lactis)
+G. sanguinis,B_GLBCT_SNGN,as.mo() picks Gemella sanguinis; the lab means Globicatella sanguinis
+P. vulneris,B_PSDSC_VLNR,as.mo() fuzzy-matches Proteus vulgaris; the lab means Pseudescherichia vulneris

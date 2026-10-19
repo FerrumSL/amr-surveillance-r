@@ -1,0 +1,4 @@
+pair,organism,antibiotic,n_isolates,n_resistant,first_year,last_year,odds_ratio_per_year,or_ci_low,or_ci_high,p_value
+E. coli vs amoxicillin/clavulanic acid,E. coli,Amoxicillin/clavulanic acid,255,35,2002,2017,1.2026671729205496,1.1006988457257854,1.3272924788381169,2.0859922544148497e-5
+E. coli vs ciprofloxacin,E. coli,Ciprofloxacin,249,30,2002,2017,1.1010289552990666,1.010083974735607,1.2071762007346054,0.02831073977694919
+E. coli vs trimethoprim/sulfamethoxazole,E. coli,Trimethoprim/sulfamethoxazole,254,87,2002,2017,1.0159370362457312,0.9604696477380724,1.075029934707437,0.5810133458241572
