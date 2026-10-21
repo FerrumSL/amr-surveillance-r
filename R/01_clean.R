@@ -200,6 +200,7 @@ clean_isolates <- function(raw, lookup, column_map = NULL, guideline = "EUCAST 2
     gender = toupper(trimws(raw$gender)),
     ward = trimws(raw$ward),
     specimen = trimws(raw$specimen),
+    dtest = ifelse(is.na(raw$icr) | trimws(raw$icr) == "", NA, ifelse(icr_positive, "positive", "negative")),
     mo = mo,
     !!!merged
   )

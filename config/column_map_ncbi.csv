@@ -3,3 +3,4 @@ Isolate ID,patient
 Collection date,date
 Organism,organism
 Isolation source,specimen
+Date precision,ignore

@@ -95,8 +95,24 @@ tests <- long |>
   ) |>
   filter(!is.na(ab), !is.na(kind), !is.na(guideline), !is.na(measurement))
 
+# NCBI dates come as a day, a month, a year or a range. Each isolate is its own patient here, so
+# the first-isolate rule never compares two dates of one patient, and every analysis works by
+# year. A partial date is therefore set to the middle of its period (the 15th, or 1 July), a range
+# keeps its start, and `Date precision` records which dates were completed. "missing" and
+# "not applicable" are left out. A lab export never goes through this: its dates must be exact.
+date_precision <- function(x) {
+  x <- sub("/.*", "", x)
+  case_when(grepl("^\\d{4}-\\d{2}-\\d{2}$", x) ~ "day", grepl("^\\d{4}-\\d{2}$", x) ~ "month",
+            grepl("^\\d{4}$", x) ~ "year")
+}
+complete_date <- function(x) {
+  x <- sub("/.*", "", x)
+  case_when(date_precision(x) == "day" ~ x, date_precision(x) == "month" ~ paste0(x, "-15"),
+            date_precision(x) == "year" ~ paste0(x, "-07-01"))
+}
 isolates <- distinct(long, accession, organism, collection_date, isolation_source) |>
-  filter(grepl("^\\d{4}-\\d{2}-\\d{2}$", collection_date))
+  mutate(date_precision = date_precision(collection_date), collection_date = complete_date(collection_date)) |>
+  filter(!is.na(collection_date))
 
 wide <- tests |>
   filter(accession %in% isolates$accession) |>
@@ -108,9 +124,10 @@ names(wide) <- sub("^value\\.", "", names(wide))
 wide <- isolates |>
   inner_join(wide, by = "accession") |>
   rename(`Isolate ID` = accession, Organism = organism, `Collection date` = collection_date,
-         `Isolation source` = isolation_source)
-wide <- wide[c(names(wide)[1:4], sort(names(wide)[-(1:4)]))]
+         `Date precision` = date_precision, `Isolation source` = isolation_source)
+wide <- wide[c(names(wide)[1:5], sort(names(wide)[-(1:5)]))]
 
 write_csv(wide, "data/raw/ncbi_export.csv", na = "")
-message("Wrote data/raw/ncbi_export.csv (", nrow(wide), " isolates with a full collection date; ",
-        n_distinct(long$accession) - nrow(wide), " left out without one)")
+message("Wrote data/raw/ncbi_export.csv (", nrow(wide), " isolates; dates completed from a month: ",
+        sum(wide$`Date precision` == "month"), ", from a year: ", sum(wide$`Date precision` == "year"),
+        "; ", n_distinct(long$accession) - nrow(wide), " left out with no date or no usable test)")

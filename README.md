@@ -14,7 +14,7 @@ one stated EUCAST or CLSI version.
 
 ## Example: public NCBI isolates
 
-![Cumulative antibiogram, 2003-2025, of 1,137 human isolates from NCBI BioSample interpreted with CLSI 2025: percentage susceptible for A. baumannii, E. coli, K. pneumoniae, P. aeruginosa and S. aureus by drug grouped by class, shaded in six blue bands from 90% or more (lightest) to under 20% (darkest); IR marks intrinsic resistance](reports/ncbi/figures/antibiogram.png)
+![Cumulative antibiogram, 1998-2025, of 2,004 human isolates from NCBI BioSample interpreted with CLSI 2025: percentage susceptible for A. baumannii, E. coli, K. pneumoniae, P. aeruginosa, E. faecium and S. aureus by drug grouped by class, shaded in six blue bands from 90% or more (lightest) to under 20% (darkest); IR marks intrinsic resistance](reports/ncbi/figures/antibiogram.png)
 
 This page comes from 2,138 real human isolates in
 [NCBI BioSample](https://www.ncbi.nlm.nih.gov/biosample/) antibiograms (*E. coli*,
@@ -131,42 +131,48 @@ tests/testthat/        tests for the cleaning, interpretation, WHONET import and
   `WHONET` only has 500 isolates spread over two countries and 16 years, which is too few for
   trends. The tests use `WHONET` to check the WHONET import.
 
-## What the real data showed
+## Checks built in
 
-Running real exports through the pipeline found problems the demo data never had. Each one
-is now handled, and most are covered by a test:
+Each of these is a common way an AMR pipeline goes wrong on real exports. The real NCBI data
+were used to test them, and most have a unit test.
 
-- **Guessed column names.** `as.ab()` matches loosely: it reads a `Country` column as
-  metronidazole, `Ward` as prulifloxacin and `ESBL` as cefepime/enmetazobactam. Antibiotic
-  columns are now matched exactly, and any other column must be mapped or ignored.
-- **EUCAST disk zones under CLSI.** 277 zones in the NCBI data were measured with
-  EUCAST disks. Reading them with CLSI breakpoints would be wrong (different disk content), so
-  they are left out and counted. MICs are read with one guideline whatever the column says.
-- **Combination MICs** such as `16/4` (piperacillin/tazobactam) and `0.5/9.5`
-  (trimethoprim/sulfamethoxazole) are read by their first part. Values that are still not
-  valid, for example `>=6.4/121.6`, are listed in the cleaning log rather than dropped quietly.
-- **No breakpoint.** About 2,800 NCBI values have no CLSI 2025 breakpoint: veterinary drugs
-  from food-safety panels, and the oxacillin disk for *S. aureus* (CLSI uses cefoxitin). They
-  stay blank and are counted per column in the log; they are never read as susceptible.
-- **Not interpretable (NI)** results were counted in the denominator of resistance by
-  period. They are now left out.
-- **Year-only dates.** 1,001 of 2,138 NCBI isolates have only a year. They are left out of the
-  export because first-isolate rules need a date; the date parser still refuses to guess.
-- **Intrinsic resistance in alerts.** *E. casseliflavus* is vancomycin resistant by nature
-  (vanC) and was flagged as VRE. Alerts now ignore intrinsic resistance (EUCAST Expected
-  Resistant Phenotypes), and CRE ignores imipenem alone for *Proteus*, *Providencia* and *Morganella*.
-- **Colistin under CLSI** has no susceptible category since 2020, so the antibiogram showed
-  "0% susceptible". It now prints n/a with a footnote.
+- Antibiotic columns are matched exactly. `as.ab()` alone would read a `Country` column as
+  metronidazole and `Ward` as prulifloxacin.
+- Disk zones are read only with breakpoints for the same disks: CLSI and EUCAST disks differ in
+  content, so zones from the other system are counted and left out (595 in the NCBI data).
+- Combination MICs (`16/4`, `0.5/9.5`) are read by their first part; values that are not valid
+  MICs or zones are listed in the cleaning log, never dropped quietly.
+- Values with no breakpoint for that organism and drug stay blank and are counted per column;
+  they are never read as susceptible (about 3,100 NCBI values, mostly veterinary drugs).
+- Not-interpretable (NI) results are kept out of denominators.
+- Intrinsic resistance never raises an alert (no VRE alert for vanC *E. casseliflavus*), and CRE
+  ignores imipenem alone for *Proteus*, *Providencia* and *Morganella*.
+- A positive D-test sets clindamycin to R. When there is no D-test result, the antibiogram marks
+  staphylococcal clindamycin with ‡ and says how many erythromycin-R, clindamycin-S isolates
+  could hide inducible resistance (120 in the NCBI data).
+- Drugs without an S category in the guideline (colistin under CLSI) print n/a, not 0%.
 
 [`reports/ncbi/validation.md`](reports/ncbi/validation.md) compares the pipeline's CLSI 2025
-reading of about 15,000 real MIC and disk values with the labs' own calls: about 95% agree.
-Using the CLSI version from each isolate's collection year (possible for 10,603 tests) halves
-the rate of major errors (pipeline R, lab S), from 52 in 15,328 to 18 in 10,603, so many of them
-come from breakpoint changes. The largest gap is *S. aureus* and clindamycin: 127 isolates the pipeline calls S were reported R by the lab.
-That pattern fits inducible clindamycin resistance, which a MIC cannot show and a D-test can.
-When an export has a D-test column (WHONET: `Inducible clindamycin resistance`), the cleaner
-now sets clindamycin to R for positive tests. The NCBI data have no D-test, so the
-*S. aureus* clindamycin figure in `reports/ncbi/` is too high.
+reading of 15,328 real MIC and disk values with the labs' own calls: 94.6% agree. With the CLSI
+version of each isolate's collection year (possible for 10,603 tests), major errors (pipeline R,
+lab S) fall from 52 to 18, so many of the disagreements come from breakpoint changes. The largest
+gap is *S. aureus* and clindamycin (127 isolates the pipeline calls S were reported R), the
+inducible-resistance pattern above.
+
+## Known limitations
+
+- **Selected isolates.** NCBI submitters chose what to sequence, often resistant strains, so
+  the NCBI rates describe no population. Use them to test the pipeline, not to guide therapy.
+- **Completed dates.** 867 of the 2,004 NCBI isolates have only a month (209) or a year (658);
+  their date is set to the 15th or 1 July, recorded in `Date precision`. This is safe here because
+  each isolate is its own patient and every analysis works by year. Lab exports are never
+  completed: an inexact date stops the run.
+- **No D-test in the NCBI data.** The *S. aureus* clindamycin figure there may be too high
+  (marked ‡ on the page).
+- **Intrinsic resistance follows EUCAST** (Expected Resistant Phenotypes v1.2) even on the CLSI
+  page, because the AMR package has no copy of CLSI M100 Appendix B. The two lists mostly agree.
+- **One page per run.** An antibiogram with more than about 12 organism rows needs a second page,
+  which is not built yet.
 
 ## Licence and credits
 

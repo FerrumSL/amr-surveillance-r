@@ -21,7 +21,7 @@ options(AMR_guideline = params$guideline_family)
 
 # ---- Data ------------------------------------------------------------------------------------
 isolates <- read_csv(params$processed, col_types = cols(.default = col_character()), na = "")
-ab_cols <- setdiff(names(isolates), c("date", "patient", "age", "gender", "ward", "specimen", "mo"))
+ab_cols <- setdiff(names(isolates), c("date", "patient", "age", "gender", "ward", "specimen", "dtest", "mo"))
 isolates <- isolates |>
   mutate(date = as.Date(date), age = as.integer(age), mo = as.mo(mo, info = FALSE),
          across(all_of(ab_cols), as.sir))
@@ -191,6 +191,11 @@ no_s <- clinical_breakpoints |>
 
 # Every organism x drug cell of one panel, with its state. The values come unchanged from the
 # antibiogram() table; the grid only adds what that table leaves out (IR, too few, not tested).
+# Staphylococcus species with erythromycin-R, clindamycin-S isolates and no D-test result.
+dtest_missing <- if (all(c("ERY", "CLI") %in% names(abg_first))) {
+  unique(as.character(abg_first$mo[abg_first$ERY %in% "R" & abg_first$CLI %in% "S" & is.na(abg_first$dtest) &
+                                     mo_genus(abg_first$mo, language = NULL) == "Staphylococcus"]))
+} else character()
 abg_cells <- function(data, antibiotics, abg) {
   antibiotics <- intersect(antibiotics, names(data))
   common <- data |> count(mo) |> filter(n >= params$minimum)
@@ -214,6 +219,8 @@ abg_cells <- function(data, antibiotics, abg) {
                              TRUE ~ "blank"),
            band = band_of(ifelse(state == "value", pct_s, NA)),
            wide = state == "value" & n_tested < 50,
+           dtest_flag = state == "value" & code == "CLI" & mo_genus(mo, language = NULL) == "Staphylococcus" &
+             mo %in% dtest_missing,
            class = factor(drug_class(code), class_order))
   # A drug with nothing to show for any organism (only dashes and blanks) is left off the page.
   shown <- unique(cells$code[cells$state %in% c("value", "no_s", "IR")])
@@ -240,7 +247,8 @@ abg_panel <- function(cells, cell_w, cell_h, label_units, top_in, name_in, gray)
   vals <- filter(cells, state %in% c("value", "no_s")) |>
     mutate(fill = ifelse(state == "value", fill[as.character(band)], "#ffffff"),
            text = ifelse(state == "value", text_on(fill), ink),
-           label = ifelse(state == "no_s", "n/a*", paste0(pct_s, ifelse(wide, "†", ""))),
+           label = ifelse(state == "no_s", "n/a*", paste0(pct_s, ifelse(wide, "\u2020", ""),
+                                                          ifelse(dtest_flag, "\u2021", ""))),
            face = ifelse(wide, "bold.italic", "bold"))
   cols <- distinct(cells, class, code, ab, x)
   brackets <- cols |>
@@ -374,6 +382,12 @@ draw_antibiogram <- function(gray = FALSE) {
   if (has("IR")) { key(x, "IR", "intrinsic", ink_3); x <- x + 1.05 }
   if (has("few")) key(x, "\u2014", paste0("< ", params$minimum, " tested"), NA, face = "plain")
   no_s_drugs <- unique(all_cells$ab[all_cells$state == "no_s"])
+  # Staphylococci that are erythromycin R and clindamycin S need a D-test (CLSI M100). Without
+  # one, inducible clindamycin resistance cannot be excluded, so the page says how many.
+  staph <- abg_first |> filter(mo_genus(mo, language = NULL) == "Staphylococcus")
+  undetected <- if (all(c("ERY", "CLI") %in% names(staph)) && "CLI" %in% all_cells$code) {
+    sum(staph$ERY %in% "R" & staph$CLI %in% "S" & is.na(staph$dtest))
+  } else 0
   notes <- c(
     paste0("First isolate per patient and species per ", params$episode_days, " days (CLSI M39). ",
            "Raw MIC and disk values read with ", params$guideline,
@@ -385,6 +399,9 @@ draw_antibiogram <- function(gray = FALSE) {
               paste0("\u2020 ", params$minimum, "\u201349 isolates tested, wide uncertainty",
                      if (any(all_cells$row_dagger)) " (after an organism: every value in that row)", ".")),
           collapse = "   "),
+    if (undetected > 0)
+      paste0("\u2021 Clindamycin: ", undetected, " staphylococci are erythromycin R and clindamycin S with no ",
+             "D-test result; inducible resistance cannot be excluded, so % susceptible may be too high."),
     if (length(no_s_drugs) > 0)
       paste0("n/a*: ", params$guideline, " has no susceptible category for ", paste(no_s_drugs, collapse = ", "),
              "; see the CSV tables for % intermediate."),
