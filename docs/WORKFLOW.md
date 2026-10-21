@@ -42,7 +42,7 @@ interpretation, first-isolate selection, antibiograms and intrinsic resistance.
    - Organism names go through `data/organism_lookup.csv` first, then `as.mo()`.
      Abbreviations are ambiguous: `as.mo("S. hominis")` returns *Streptococcus* hominis, but
      the lab meant *Staphylococcus* hominis. Every approximate match is listed in
-     `reports/cleaning_log.md` for a person to check; wrong ones go into the lookup.
+     the cleaning log (`reports/<run>/cleaning_log.md`) for a person to check; wrong ones go into the lookup.
    - Results go through `as.sir()`. Values it cannot read become NA and are listed in the log.
    - Exact duplicate rows are dropped and counted.
    - The test `tests/testthat/test_clean.R` checks that cleaning the messy file gives back the

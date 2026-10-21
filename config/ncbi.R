@@ -5,7 +5,7 @@
 # and each isolate is treated as a separate patient because NCBI has no patient IDs.
 
 cfg <- list(
-  name = "NCBI BioSample antibiograms (real isolates, not a surveillance sample)",
+  name = "Example: public NCBI BioSample isolates (not surveillance data)",
   demo = FALSE,
   input = "data/raw/ncbi_export.csv",
   column_map = "config/column_map_ncbi.csv",
@@ -27,5 +27,10 @@ cfg <- list(
                                 "AMK", "CIP", "SXT", "COL"),
   antibiogram_gram_positive = c("PEN", "OXA", "ERY", "CLI", "GEN", "CIP", "SXT", "TCY", "VAN",
                                 "LNZ", "DAP", "RIF"),
-  pairs = data.frame(mo = c("B_KLBSL_PNMN", "B_ESCHR_COLI"), ab = c("MEM", "CIP"))
+  pairs = data.frame(mo = c("B_KLBSL_PNMN", "B_ESCHR_COLI"), ab = c("MEM", "CIP")),
+
+  # Printed on the antibiogram (optional in any config).
+  antibiogram_subtitle = "All years pooled: no single year has 30 first isolates per organism",
+  antibiogram_note = paste("Public NCBI submissions, enriched for resistant isolates.",
+                           "Not representative of any population and not for empirical therapy decisions.")
 )

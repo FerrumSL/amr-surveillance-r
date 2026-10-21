@@ -112,7 +112,7 @@ if (isTRUE(p$demo)) {
       "patient in different years as independent, which makes its p-values somewhat too small. In the same",
       "data, coagulase-negative staphylococci stop being reported as \"CoNS\" in 2013 and appear",
       "as species (S. epidermidis, S. hominis) instead, a change in laboratory practice that would",
-      "distort any trend by species. See `reports/figures/isolates_per_year.png`.")
+      "distort any trend by species. See `reports/demo/figures/isolates_per_year.png`.")
   )
 }
 

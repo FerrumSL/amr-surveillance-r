@@ -3,7 +3,7 @@
 # Everything a lab needs to change is here; the scripts in R/ should not need editing.
 
 cfg <- list(
-  name = "Demo hospital (AMR package example_isolates, fictitious)",
+  name = "Synthetic test data (AMR package example_isolates)",
   demo = TRUE,                      # TRUE only for the bundled example: enables the hand-written
                                     # interpretation in R/03_report.R and the recovery test
   input = "data/raw/isolates_messy.csv",
@@ -11,7 +11,7 @@ cfg <- list(
                                     # export already uses them (see config/column_map_whonet.csv)
   salt_file = "salt.txt",           # secret used to pseudonymise patient IDs; never commit it
   processed = "data/processed/isolates_clean.csv",
-  reports = "reports",
+  reports = "reports/demo",
 
   # Breakpoints for raw MIC and disk values. S/I/R text from the lab is kept as reported.
   guideline = "EUCAST 2025",

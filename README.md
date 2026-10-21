@@ -12,33 +12,50 @@ It reads exports with any column names (through a column map), WHONET exports (a
 map is included), and S/I/R results or raw MIC and disk-zone values, which it interprets with
 one stated EUCAST or CLSI version.
 
-**Demo data.** The default run (`config/demo.R`) uses `example_isolates`, a dataset that
-ships with the AMR package. It holds 2,000 made-up isolates from 2002 to 2017.
-To give the cleaning step something to do, `R/00_fetch.R` messes it up on purpose: organism
-names spelled several ways, results written as "s", "Resistant" or "SENSITIVE", and some dates
-in dd/mm/yyyy. None of the numbers describe a real hospital or country. The demo is also the
-only run with a hand-written interpretation: `R/03_report.R` checks each of its claims against
-the numbers, and a test checks that cleaning recovers the original data exactly.
+## Example: public NCBI isolates
 
-**Real data.** The same pipeline also runs on 2,138 real human isolates from
-[NCBI BioSample](https://www.ncbi.nlm.nih.gov/biosample/) antibiograms (E. coli,
-K. pneumoniae, S. aureus, P. aeruginosa, A. baumannii, E. faecium), with raw MIC and disk
-values and the S/I/R each submitting lab reported. That lab call is used to check the
-pipeline's interpretation (see below). These isolates were picked by their submitters, often
-because they were resistant, so their resistance rates say nothing about any population.
+![Cumulative antibiogram, 2003-2025, of 1,137 human isolates from NCBI BioSample interpreted with CLSI 2025: percentage susceptible for A. baumannii, E. coli, K. pneumoniae, P. aeruginosa and S. aureus by drug grouped by class, shaded in six blue bands from 90% or more (lightest) to under 20% (darkest); IR marks intrinsic resistance](reports/ncbi/figures/antibiogram.png)
 
-## Results
+This page comes from 2,138 real human isolates in
+[NCBI BioSample](https://www.ncbi.nlm.nih.gov/biosample/) antibiograms (*E. coli*,
+*K. pneumoniae*, *S. aureus*, *P. aeruginosa*, *A. baumannii*, *E. faecium*), with raw MIC and disk
+values and the S/I/R each submitting lab reported. The pipeline reads the raw values with CLSI 2025
+and checks its reading against the labs' own calls (see below). These isolates were picked by
+their submitters, often because they were resistant, so their resistance rates say nothing about
+any population and must not guide therapy.
 
-- [`reports/summary.md`](reports/summary.md): the main numbers and what I read from them
-- [`reports/cleaning_log.md`](reports/cleaning_log.md): what cleaning changed, and which
-  organism names a person should double-check
-- [`reports/antibiogram.pdf`](reports/antibiogram.pdf): the one-page antibiogram for clinicians
-- `reports/tables/`: antibiograms, resistance by period, trend tests and `alerts.csv` as CSV
-- [`reports/ncbi/`](reports/ncbi/): the same outputs for the real NCBI isolates, plus
-  [`validation.md`](reports/ncbi/validation.md), the check against the labs' own calls
+Outputs in [`reports/ncbi/`](reports/ncbi/):
+[`antibiogram.pdf`](reports/ncbi/antibiogram.pdf) (one A4 page),
+[`summary.md`](reports/ncbi/summary.md), [`cleaning_log.md`](reports/ncbi/cleaning_log.md),
+[`validation.md`](reports/ncbi/validation.md) (the check against the labs' calls), and
+`tables/` with the antibiograms, resistance by period, trend tests and `alerts.csv` as CSV.
 
-![Resistance by period](reports/figures/resistance_trend.png)
-![Antibiogram](reports/figures/antibiogram.png)
+## Synthetic test data
+
+The default run (`config/demo.R`) uses `example_isolates`, synthetic data that ships with the
+AMR package: 2,000 made-up isolates from 2002 to 2017. It covers what the NCBI data cannot: real
+patients with repeat isolates (so first-isolate selection matters), wards for the alert list,
+and a messy export. `R/00_fetch.R` messes it up on purpose (organism names spelled several ways,
+results written as "s", "Resistant" or "SENSITIVE", some dates in dd/mm/yyyy), and a test checks
+that cleaning recovers the original data exactly. It is also the only run with a hand-written
+interpretation, which `R/03_report.R` checks claim by claim against the numbers. None of its
+numbers describe a real hospital or country.
+
+Outputs in [`reports/demo/`](reports/demo/): [`antibiogram.pdf`](reports/demo/antibiogram.pdf),
+[`summary.md`](reports/demo/summary.md), [`cleaning_log.md`](reports/demo/cleaning_log.md) and
+`tables/`. Its trend chart is the clearer one, because the NCBI isolates are too few per period
+for a trend:
+
+![Line charts of the percentage of E. coli first isolates resistant to amoxicillin/clavulanic acid, ciprofloxacin and trimethoprim/sulfamethoxazole in four 4-year periods from 2002 to 2017, with 95% confidence intervals and the number tested per period (synthetic test data)](reports/demo/figures/resistance_trend.png)
+
+## How the antibiogram is drawn
+
+The antibiogram uses one blue scale in six bands whose lightness differs by at least 12 L\*,
+so it reads the same printed in black and white. Text in each cell is black or white,
+whichever reaches at least 4.5:1 contrast. `R/plot_style.R` holds the palette and the checks,
+and the run stops if either fails. Grayscale proofs are written to `reports/_grayscale_check/`
+(not committed). Cells marked IR are intrinsic resistance, a dash means fewer than 30
+isolates tested, and a blank means not tested.
 
 ## How to run it
 
@@ -67,7 +84,8 @@ This cleans the data, runs the analysis, writes the reports and then runs the te
    CLSI) are not read, because the disk contents differ; the cleaning log counts them. A
    column of numbers without MIC or disk in its name stops the run; rename it in the column
    map (`CIP_EM`).
-4. Run `Rscript R/run_all.R config/my_lab.R` and read `reports/cleaning_log.md` first.
+4. Run `Rscript R/run_all.R config/my_lab.R` and read the `cleaning_log.md` in your `reports`
+   folder first.
 
 Patient IDs are replaced with keyed hashes (HMAC-SHA256) before anything is saved. The key is
 in `salt.txt`, created on the first run and kept out of git. Keep it: the same key gives the
@@ -90,6 +108,7 @@ R/01_clean.R           column map, organism names, S/I/R and MIC/disk interpreta
                        dates, duplicates, pseudonymisation, infection-control alerts
 R/02_analyse.R         first isolates, antibiograms (CSV, PNG, PDF), resistance by period, trend test
 R/03_report.R          writes summary.md; for the demo, checks its claims against the numbers
+R/plot_style.R         palette, theme, and the L* and contrast checks for print
 R/04_validate.R        compares the pipeline's MIC/disk interpretation with the labs' calls
 R/run_all.R            runs all of the above, then the tests
 data/raw/              the inputs (demo, NCBI snapshot)
