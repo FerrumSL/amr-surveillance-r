@@ -21,3 +21,6 @@ jobs:
 
       - name: Clean, analyse, report and test
         run: Rscript R/run_all.R
+
+      - name: Same run on the real NCBI isolates, with the interpretation check
+        run: Rscript R/run_all.R config/ncbi.R

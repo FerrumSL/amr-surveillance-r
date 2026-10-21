@@ -1,0 +1,6 @@
+pair,organism,antibiotic,period,n_tested,n_resistant,pct_resistant,ci_low,ci_high,enough_isolates
+E. coli vs ciprofloxacin,E. coli,Ciprofloxacin,2008-2012,5,2,,,,FALSE
+E. coli vs ciprofloxacin,E. coli,Ciprofloxacin,2013-2017,57,43,75.43859649122807,62.23896951980542,85.873142226404,TRUE
+E. coli vs ciprofloxacin,E. coli,Ciprofloxacin,2018-2022,6,3,,,,FALSE
+K. pneumoniae vs meropenem,K. pneumoniae,Meropenem,2018-2022,192,138,71.875,64.94914719028672,78.11166686035256,TRUE
+K. pneumoniae vs meropenem,K. pneumoniae,Meropenem,2023-2025,1,1,,,,FALSE

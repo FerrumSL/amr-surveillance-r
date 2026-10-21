@@ -1,0 +1,500 @@
+alert,date,patient,ward,specimen,organism,resistant_to
+CR Acinetobacter baumannii,2007-08-23,fcea488dad10df16,,respiratory,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2007-11-10,c2c0f64c767ea18c,,urine,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2007-11-30,b9bc1947ca629ddd,,respiratory,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2007-12-11,f14b9c2a27258bd9,,wound,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2007-12-16,e4a2ae36101f8b7e,,wound,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2007-12-21,d44f93a6e77d3614,,wound,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2012-05-17,68ae00d6c1d2eca0,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-05-19,3d4cd74d6855fb58,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-05-20,250513dda9892a73,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-05-21,760c6f193f18e9f0,,"Blood, Peripheral",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-05-25,9b2abc4f9bb1cd5d,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-05-26,65f49e87f28f9f49,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-05-28,9d07b9d4e0fc37e4,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-06-01,4be56823add4f5e8,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-06-03,28b62fd3b1858572,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-06-04,62c3fcf7735bdfc0,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-06-09,649dbced36e10b90,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-06-10,86c34d4e171cd516,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-06-11,13244732f72939b5,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-06-14,cd486fe52fe1d5c8,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-06-18,27cff7187125e611,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-06-29,8c6e0f2722f4dfc2,,wound,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2012-08-16,ac4d6d276e7b4601,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-08-16,7f7ac4d47d38a16c,,"Blood, Peripheral",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-08-20,e2df9f615236b88d,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-08-22,16ab941e3c2901b7,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-08-23,5fb3806a8827c0c5,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-08-25,4e396c97464d6fea,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-08-29,652a4c89f1e56d0f,,"Blood, Central line",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2012-08-31,d0f97c8d578f36d9,,"Blood, Peripheral",Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2019-12-31,d408370ef6ff23be,,hospital,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2019-12-31,e87cf612c24bf29d,,hospital,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2019-12-31,9d9e126369190c9c,,hospital,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2019-12-31,69711b5c59921a6e,,hospital,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2019-12-31,d7b3b624e248d974,,hospital,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2019-12-31,79bbdcb88070363e,,hospital,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2019-12-31,b289b351d069d455,,hospital,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2019-12-31,0431d6c556a14b60,,hospital,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2019-12-31,533d635b0a6b7a14,,hospital,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2019-12-31,1482934498405423,,hospital,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2022-12-23,341bc24bd796c48f,,blood,Acinetobacter baumannii,IPM
+CR Acinetobacter baumannii,2023-06-12,d708eb39572027c8,,"SPUTUM, TRACHEAL ASPIRATE/SUCTION",Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2023-06-13,1f81cccaff8d6b36,,Bronchial secretions,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2023-07-07,33dbe38847395305,,sputum,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2023-07-18,2d5c5c0e000f630e,,Fluid,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2023-07-27,513d2dfeea21c685,,Bronchial secretions,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2023-07-30,0a2afd08d192c64c,,blood,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2023-08-13,d984220d0af0c562,,blood,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2023-08-14,dd11a274f6c1ea23,,urine,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2023-08-22,68c51b6b92c1321a,,Bronchial secretions,Acinetobacter baumannii,"IPM, MEM"
+CR Acinetobacter baumannii,2023-08-24,17c00f36c1454da3,,wound,Acinetobacter baumannii,"IPM, MEM"
+CR Pseudomonas aeruginosa,2013-01-08,dae7edf2ee4aaacb,,sputum,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2017-12-22,e3893189f85ec7de,,missing,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2018-01-08,84cd3b6c5c770937,,missing,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2018-01-15,238e87ce1129f0a0,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2018-03-20,4d2784b403a4b2a8,,Bronchial Lavage,Pseudomonas aeruginosa,IPM
+CR Pseudomonas aeruginosa,2018-03-26,cf55b9c275cda42c,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2018-04-02,760a8cce978d3b31,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2018-04-06,4afdee78b1d29464,,Bronchial Lavage,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2018-04-13,21d2039af0ad6104,,missing,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2018-05-04,436577c68d336f5c,,Bronchial Lavage,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2018-06-04,9e43c005a766c458,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2018-06-15,4dd891883eddf4be,,missing,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2018-09-20,0d57df153ee73783,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2018-10-08,9882bb045c6d349b,,missing,Pseudomonas aeruginosa,IPM
+CR Pseudomonas aeruginosa,2018-10-08,c1126d4ffbb14b89,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2018-11-10,26267160410fc0ce,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2018-12-13,456513b0497e4ad8,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-01-16,ee1a3c29278f725b,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-01-28,95886323b59e9326,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-02-09,af4b5b3c404a5d12,,Tracheal secretions,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-02-13,73ff7d6fb7c9e118,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-02-13,1897b395759761de,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-05-23,0a5ec6bee69fbb8f,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-07-11,e844937295fafd23,,urine,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-08-15,c33d8a42c36c4642,,missing,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-11-14,f3c14f43bc18912a,,missing,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-11-28,6177e13e198ac19d,,urine,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,ef8b22527d673ae0,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,03d1728dccc9bef8,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,40c8a00454944c1c,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,fabd86f029b4b9ec,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,876a2a1d9a5112ec,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,5688a9d864d715a9,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,a1779bc2fc5948c4,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,51dd3531baa762c4,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,edbf32f76e1fdc37,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,bc6b6d01f410cf92,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,55ab4d68285201a1,,hospital,Pseudomonas aeruginosa,IPM
+CR Pseudomonas aeruginosa,2019-12-31,d9e48916a9b6680b,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,e09062f98b8dfb7a,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,e08ecf8633e44f02,,hospital,Pseudomonas aeruginosa,IPM
+CR Pseudomonas aeruginosa,2019-12-31,0d16d6f30d0412ac,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,d6b0d76ee93f64aa,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,eb0dff0fc665523c,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,4c287111c8c6e64a,,hospital,Pseudomonas aeruginosa,IPM
+CR Pseudomonas aeruginosa,2019-12-31,0dc1c5fe97f3cb2a,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,b2ad3b7f62ffe5b7,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2019-12-31,303e1ccfa6c8869c,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2020-01-07,fd5d86549239e176,,missing,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2020-01-07,106cf251e03e8ed7,,missing,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2020-03-04,6cdb50aba05c4a4f,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2020-06-19,6a80bb06d25dcac6,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2020-11-27,ffa7f51571fe36cc,,blood,Pseudomonas aeruginosa,MEM
+CR Pseudomonas aeruginosa,2020-12-21,69cc0375abbd7cf8,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2021-01-20,237232be8972cf26,,missing,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2021-01-20,6394a595fcff568d,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2021-02-02,a4282be685ce6f6e,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2021-03-07,cbed5fbc915507ea,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2021-03-11,4891c259b5b82faf,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2021-03-30,5e33389caff8af7f,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2021-05-03,b07b070dc584ef2a,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2021-05-07,ac8a320fe1bfbace,,blood,Pseudomonas aeruginosa,IPM
+CR Pseudomonas aeruginosa,2021-05-24,baabb43da9c8f96b,,pus,Pseudomonas aeruginosa,MEM
+CR Pseudomonas aeruginosa,2021-06-04,25c13854a3f62540,,pus,Pseudomonas aeruginosa,MEM
+CR Pseudomonas aeruginosa,2021-07-01,ae4280586eb4fc0e,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2021-08-20,3e1ee2ac1a76462d,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-02-16,2084ff80c51aa5e4,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-05-03,933e61dbfd46ead1,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-06-09,2246d25035e709af,,missing,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-07-08,ee7dd74d347451b7,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-10-26,5d26e0dd692f07c9,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,16e3ad99407ebce1,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,1019d6d9d2c2eaa3,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,832d06e54069027d,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,84a64c61e2b92cf4,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,db0aefa284581706,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,87f3bbad15eb8750,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,c3e356a96f488da7,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,66555516db7f6ae8,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,c9a79953e688ad25,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,8fbbea135f105a3a,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,7e5570dc49b2c07e,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,028c61af29f878cd,,hospital,Pseudomonas aeruginosa,MEM
+CR Pseudomonas aeruginosa,2022-12-31,cb59d7a50f9ed9ab,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,1070f7feff8352db,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,d28182d9e1ae9bdb,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,0c9242d32c3548c5,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,2cf9500ccfc765a6,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,8dce16c873adfed6,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2022-12-31,8a717d7cb8342431,,hospital,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-01-19,ce481d516a2dfddf,,Pus,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-01-30,80c02436a26cbdf1,,Tissue,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-02-16,2935f06b24874480,,Surgical wound,Pseudomonas aeruginosa,MEM
+CR Pseudomonas aeruginosa,2023-02-24,fa0bdafd8e3d30ea,,sputum,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-05-26,57008e8b056e7bb1,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-06-19,269bdf0b50fdafe0,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-06-22,b0401f06c34ce348,,Bronchial secretion,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-06-26,30ca6238e70a58be,,Bronchial secretions,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-07-05,97a24dd39743e599,,wound,Pseudomonas aeruginosa,MEM
+CR Pseudomonas aeruginosa,2023-07-11,cc7fd20831df4325,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-07-19,009994d858a1fd99,,Bronchial secretions,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-07-21,ed1af6a447f729ca,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-08-07,61895ca9f65df1a8,,Bronchial secretion,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-08-22,ec1a95004d4c4573,,Central venous catheter,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-08-24,26c46d9b75d3e190,,wound,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-08-29,fc76f9efac03ddb5,,Bronchial secretion,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2023-09-05,b1b24c5f8c530480,,Bronchial secretion,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2024-02-27,d1db70aa8be4165e,,missing,Pseudomonas aeruginosa,IPM
+CR Pseudomonas aeruginosa,2024-03-19,b853371137dd8943,,Venous catheter tip,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2024-04-02,c89f45e338d2a4d8,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2024-07-05,13220dc23131fc15,,blood,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2024-07-16,6cea652484db4f8d,,urine,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2024-10-06,20ee41ef65286c30,,Abscess drainage,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2024-10-13,a2eba155930b1e49,,Bronchial secretion,Pseudomonas aeruginosa,MEM
+CR Pseudomonas aeruginosa,2024-10-15,ea37d97ec099b24d,,Bronchial secretion,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2024-10-18,476a3d47587a705c,,Bronchial secretion,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2024-10-18,a0ab9dcb7882e5c6,,Bronchial secretion,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2024-10-19,4ffcc4ad260c18f7,,Bronchial secretion,Pseudomonas aeruginosa,MEM
+CR Pseudomonas aeruginosa,2024-10-29,dd2ebe8b8756f7cc,,Bronchial secretion,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2024-11-19,793e89ee59d21a0d,,wound swab,Pseudomonas aeruginosa,MEM
+CR Pseudomonas aeruginosa,2024-11-19,7e372f90bd382a42,,Abscess drainage,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2025-01-06,c948383caa22ce06,,cerebrospinal fluid,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2025-01-21,9a6628eac5fac813,,Bronchial secretion,Pseudomonas aeruginosa,"IPM, MEM"
+CR Pseudomonas aeruginosa,2025-01-23,8215089639ae67f1,,Bronchial secretion,Pseudomonas aeruginosa,MEM
+CRE,2012-02-14,a6740da28a7638bf,,urine,Escherichia coli,"IPM, MEM, ETP, DOR"
+CRE,2012-08-01,463efbda84d41089,,blood,Escherichia coli,"MEM, ETP"
+CRE,2012-08-14,4964cb2b2ae4154a,,urine,Escherichia coli,ETP
+CRE,2013-01-09,0197312b91bbdcc8,,feces,Escherichia coli,"IPM, MEM, ETP"
+CRE,2013-02-13,eaa575803cb1170e,,urine,Escherichia coli,ETP
+CRE,2013-05-01,3efede2220ff5210,,Fluid_Peritoneal,Escherichia coli,"IPM, ETP"
+CRE,2013-05-14,eca18d5a0e29963f,,Blood_whole,Escherichia coli,"IPM, MEM, ETP"
+CRE,2013-05-21,e3ae7f2fb5f885cf,,Blood_whole,Escherichia coli,"MEM, ETP"
+CRE,2013-11-06,1233e1f33b5d68aa,,urine,Escherichia coli,"IPM, MEM, ETP, DOR"
+CRE,2014-02-05,f4d3c475d739aeb6,,urine,Escherichia coli,ETP
+CRE,2014-02-05,07c04e277677e67e,,urine,Escherichia coli,ETP
+CRE,2014-02-18,5d7860feeaf35e0f,,blood,Escherichia coli,"IPM, ETP"
+CRE,2014-02-18,d75cca9c9f78f2b6,,Tissue_Liver,Escherichia coli,ETP
+CRE,2014-05-01,a2ce57d08c978a82,,Wound - sacrum,Escherichia coli,ETP
+CRE,2014-05-06,72c6f7a5187f325a,,urine,Escherichia coli,"IPM, ETP"
+CRE,2014-05-07,f418100c953d3614,,urine,Escherichia coli,"IPM, MEM, ETP"
+CRE,2014-05-13,0940d22b5a1f5156,,blood,Escherichia coli,"MEM, ETP"
+CRE,2014-08-06,50c3af7ff0a5d7cf,,urine,Escherichia coli,ETP
+CRE,2014-08-06,22020560cd7c3504,,urine,Escherichia coli,ETP
+CRE,2014-08-12,47183d8bbf7c0360,,blood,Escherichia coli,ETP
+CRE,2014-11-03,82105f1d2c8eaa1b,,urine,Escherichia coli,"IPM, ETP"
+CRE,2014-11-05,413afa824044c7a9,,urine,Escherichia coli,ETP
+CRE,2014-12-02,fe330bc314f3eb75,,urine,Escherichia coli,ETP
+CRE,2014-12-08,ef8432d70f458acc,,blood,Escherichia coli,ETP
+CRE,2019-10-18,961491d57ece4872,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2019-10-26,b4dfc55538424fde,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2019-10-27,b01251c934a2207d,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2019-10-29,1252f0e90fa3ef12,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2019-11-18,c9aa3198adfc3f7a,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2019-12-31,1e6fbe1282273262,,hospital,Escherichia coli,"MEM, ETP"
+CRE,2019-12-31,9dbce407f7578169,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2019-12-31,110975315baf966f,,hospital,Klebsiella pneumoniae,"MEM, ETP"
+CRE,2019-12-31,ab45e1ddf083d57f,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2019-12-31,5d9e8af188dcdfe4,,hospital,Klebsiella pneumoniae,"MEM, ETP"
+CRE,2019-12-31,254144e8745ff916,,hospital,Klebsiella pneumoniae,ETP
+CRE,2019-12-31,44bffa43410791f1,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-01-16,84c6a1b8508a461d,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-03-29,7d3e450a3e0e4da8,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-05-04,87935678974dfc19,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-07-15,075432370d58a47c,,hospital,Klebsiella pneumoniae,"MEM, ETP"
+CRE,2020-09-01,bdfeef341ab0e53d,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-09-30,ae06fb46a0ca6fc0,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-10-31,604410ded8fd7480,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-11-02,0028e22874942b59,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-11-05,d33c5f5af168a086,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-11-10,edc7df47b40fffe9,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-12-04,97acc0c92f6fb574,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-12-10,b040e5a83a1ce051,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-12-10,58d5d588430517b3,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-12-10,a5b2730339f22d52,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2020-12-29,da63368c51acd95c,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-01-03,29607b151d4d8ab3,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-01-16,57fad38b77049363,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-01-17,c193147665b8342a,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-01-20,e950a324549a175f,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-01-28,22d26de45a499c22,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-01-29,7381235c40438426,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-01-29,95a8e7df71e2d318,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-02-02,ff6e984d01ec9489,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-02-13,560a5fa7ad807a7c,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-02-22,7ca6a65ae3b2d76e,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-03-10,4a4eab3dccd835c9,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-03-10,2d6e3e57134d5c35,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-03-11,6e04b43ef3bf1be0,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-03-13,1a102b51a21c78cc,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-03-14,a50d884cfc8fb81e,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-03-26,a5249845200931d2,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-04-05,f581fa3649db1ebf,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-04-26,23844a8b3e0c1e18,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-04-27,014f7d53838615fd,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-04-27,023b2c33de2132a1,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-05-08,468ac6afe736ceca,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-05-09,a866e0fcb6f451ed,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-05-11,55f672552bbfcf78,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-05-13,3aae12743ccc15af,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-05-22,6537542e2aa6e851,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-05-24,cb42cabd7afcf5fb,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-05-28,d6278bd889d13fcd,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-05-31,1c813eaae7de969c,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-01,58ed47218b28d7ed,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-04,5e5112772160072b,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-04,95bb6b3e907465b7,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-11,b6250af664a7a46d,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-12,6d0677c5cc5b7df7,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-13,09639d929ead5d57,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-13,1dd54af10bdccefc,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-14,29201a0b1d32d8c7,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-15,b7d9797d978ffc3a,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-15,bbadb1fa11d0da2e,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-16,1debfabb501eb717,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-16,cc5ca0f2493e8ca5,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-17,2609aca04e14ef8c,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-17,417b663e6d6f8c52,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-17,3ed5cf11ccea1b5b,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-19,5a57ad2abded83b2,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-06-21,0e958fa48598c55d,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-07-03,2bae25227ed29298,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-07-05,60ba6159e1d9d7da,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-07-06,c31c047074acf482,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-07-09,a31b8ed53135f44f,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-07-13,8710b0844bd0f394,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-07-16,024b6dcc528f8c68,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-07-28,b4297dcce4351e17,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-08-12,dcf201856da9e430,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-08-31,bb48b728b98adc54,,urine,Klebsiella pneumoniae,"MEM, ETP"
+CRE,2021-09-04,e91c44acee1ff67e,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-09-13,d8125db3ef42636c,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-09-19,88d28cdc0f1b1767,,hospital,Klebsiella pneumoniae,ETP
+CRE,2021-09-20,006ff3d10f950028,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-09-21,de19d779eae8ae1d,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-09-26,7a1a12da7dfaa791,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-09-29,56da156ba8dd7ace,,urine,Klebsiella pneumoniae,"MEM, ETP"
+CRE,2021-10-03,92620c081c8daa92,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-10-08,64e89cb4a0b96c23,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-10-09,08928c9aadaf26c8,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-10-09,6ae8ab7410125743,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-10-20,21c5b5c2de78a771,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-10-24,335a5e4a8fee8b27,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-10-25,2c0a86ee4d7681c5,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-10-25,728b24c50e7c5682,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-10-28,d448485d478b920a,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-12-04,2252b8e69dbea4d3,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-12-14,7ee1b979b2ab1a26,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2021-12-26,0496fd10f669c4b1,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-01-28,eeb4eea58f603366,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-04-01,c56e0eb59be8a489,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-04-01,af7fe93c0faafc13,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-04-01,34531a114afc21c5,,hospital,Klebsiella pneumoniae,"MEM, ETP"
+CRE,2022-04-13,c9b592b474b4fefb,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-07-22,319847fba184c5e1,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,ea5b339dceeffdd2,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,a0a8dd1e9d238e9f,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,39a8418edc1b08ea,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,8b49b56fb4b93076,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,cbfe36af65e73b4a,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,bd8277c39e80e855,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,55656531e564eac4,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,502e8a0b0cb552d1,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,66f06fc90d497e69,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,cec8e7e299d84da1,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,653bb8bb2de657ed,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,ccb5caa594e1f82d,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,25cb7cff94d2f6ab,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,59e9d9f54bfd52d2,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,4e57a37bbcf59bdf,,hospital,Klebsiella pneumoniae,ETP
+CRE,2022-12-31,fb42576b06424570,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,632a66f9c2260714,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,b9b02e3afa819bb1,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,7c1c94473629432c,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,481011976b5158c6,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,f226b85b7501c3f2,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,b624f2659108c748,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,95d4b21d1d87e3b7,,hospital,Klebsiella pneumoniae,ETP
+CRE,2022-12-31,11dc115dee2c2a8c,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,a16d3e1541c7b6dc,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,f623e60d7069e0aa,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,8c8470d69855585e,,hospital,Klebsiella pneumoniae,ETP
+CRE,2022-12-31,bf2340e8de1bf093,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,5cbcab86a3be4dd5,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,6cb9a86eeef91637,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,063c0a79470529fc,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,25c4e7cb9a866fc2,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,a578678a85b6c6ee,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,90d39d0c0a98c4fe,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,71260a7f00fd8381,,hospital,Klebsiella pneumoniae,"MEM, ETP"
+CRE,2022-12-31,e59dbea79abf4e6b,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2022-12-31,6c8fd2eac48dd81c,,hospital,Klebsiella pneumoniae,"IPM, MEM, ETP"
+CRE,2024-11-19,9ea036dc9d546971,,wound swab,Klebsiella pneumoniae,MEM
+MRSA,2017-12-31,52450250d622b152,,blood,Staphylococcus aureus,OXA
+MRSA,2018-01-03,08f11135ac6fcd7f,,blood,Staphylococcus aureus,OXA
+MRSA,2018-01-05,a1dc246c669f8a39,,blood,Staphylococcus aureus,OXA
+MRSA,2018-01-15,a7152badcd5bb426,,blood,Staphylococcus aureus,OXA
+MRSA,2018-01-22,ce1cd4512d6a3470,,blood,Staphylococcus aureus,OXA
+MRSA,2018-08-07,fcc3a732b409ac40,,blood,Staphylococcus aureus,OXA
+MRSA,2019-02-09,4d755aa5bd43d856,,blood,Staphylococcus aureus,OXA
+MRSA,2019-02-28,5cfdd574e05fb758,,blood,Staphylococcus aureus,OXA
+MRSA,2019-05-02,1cbda727db39a00c,,blood,Staphylococcus aureus,OXA
+MRSA,2019-06-26,3505022d936bbda7,,blood,Staphylococcus aureus,OXA
+MRSA,2019-09-27,a3565f2f59230934,,blood,Staphylococcus aureus,OXA
+MRSA,2021-04-08,286fd9b850cada93,,blood,Staphylococcus aureus,FOX
+MRSA,2021-05-08,83d23918bf280127,,blood,Staphylococcus aureus,FOX
+MRSA,2021-06-08,7764f5430a358de0,,blood,Staphylococcus aureus,"OXA, FOX"
+MRSA,2021-07-01,71b2fa1ea2f9da9f,,blood,Staphylococcus aureus,OXA
+MRSA,2021-07-03,7eaeb90cc775b8d1,,blood,Staphylococcus aureus,OXA
+MRSA,2021-07-04,e9bdd499697da1e9,,blood,Staphylococcus aureus,OXA
+MRSA,2021-07-07,ac1b2f186a6fb7bd,,blood,Staphylococcus aureus,FOX
+MRSA,2021-07-14,c3f006406d4b5705,,blood,Staphylococcus aureus,OXA
+MRSA,2021-07-16,de8bfc416ad31e33,,blood,Staphylococcus aureus,OXA
+MRSA,2021-07-17,2659bcd38339ea55,,blood,Staphylococcus aureus,OXA
+MRSA,2021-07-20,3ae0203cc69f4634,,blood,Staphylococcus aureus,OXA
+MRSA,2021-08-01,b1fc143cb933c65b,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-02,b72e0d6805856ddb,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-03,ef61c79af2f3613c,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-04,0591e10d01efce84,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-05,100a91401df4983b,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-05,f0cb2dd3c4ff9c0e,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-05,c07a5837a668df47,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-06,6c2a510c0bf605d2,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-06,7e0fedda168f2ad9,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-07,afb6fbeb32a06e0b,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-08,376c788bbd6e46b6,,blood,Staphylococcus aureus,OXA
+MRSA,2021-08-09,46cd13ba06e3f14c,,blood,Staphylococcus aureus,OXA
+MRSA,2021-08-09,eaffbe44ab3a9d24,,blood,Staphylococcus aureus,OXA
+MRSA,2021-08-09,be6717fcd9984ec7,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-09,e4fa8d3a79045cf4,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-10,6a46a5395dcbb798,,blood,Staphylococcus aureus,OXA
+MRSA,2021-08-10,407f15475d665a75,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-10,f1013c9bf7ee049d,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-10,fb2450b5d6bcd3b2,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-12,5fed85c6cc81c00a,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-12,58904b21e409c872,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-13,87d3ae0cbeb21c9c,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-14,87fcac0c36012bc6,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-16,9f836c044497b56d,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-17,a2c72a55b3f0d840,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-18,68ea867ad73c6c68,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-19,ec4f821e7b5bda26,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-19,f3a4c7f41cff7292,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-21,ef8766d68a2991c1,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-21,26f161a655be934f,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-22,4cb42b719ca7b3e8,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-22,4301d26f914e4d78,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-23,80cd8c31cbedccdc,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-25,369d7ccfb4576669,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-28,2e2b2ff6f2a4cff0,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-28,e7caeb5c51e4a12f,,blood,Staphylococcus aureus,FOX
+MRSA,2021-08-30,2b1aa8195f0d5082,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-03,d4e6669cdf94704f,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-04,c54ca0f5e6de06a2,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-06,cb565ca2c81169da,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-06,8509f7ef32c7ce23,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-09,a0c91a4d66dc565d,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-10,7c1cbc8a61ed66d7,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-11,f278900d6da3ce2e,,blood,Staphylococcus aureus,OXA
+MRSA,2021-09-12,e916d7a91b2482d0,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-13,d4a3e0dcb392ddf5,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-14,d4ff760a6e939028,,blood,Staphylococcus aureus,OXA
+MRSA,2021-09-14,c3e0f129295b7aef,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-15,01b2492bd7e473d9,,blood,Staphylococcus aureus,OXA
+MRSA,2021-09-15,052c016453106d0c,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-16,47ef4ce6c4d3729d,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-17,9afcd4dbd43d04dd,,blood,Staphylococcus aureus,OXA
+MRSA,2021-09-19,4c8d53514a5d7ff5,,blood,Staphylococcus aureus,OXA
+MRSA,2021-09-19,59f6a0a9a2eaedbe,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-20,dca03e201350f14a,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-22,74bba4f7d72d0633,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-24,8d3a93fbdd4c9213,,blood,Staphylococcus aureus,OXA
+MRSA,2021-09-25,7ac342ccd55660c3,,blood,Staphylococcus aureus,FOX
+MRSA,2021-09-27,68a801dcaf153f65,,blood,Staphylococcus aureus,OXA
+MRSA,2021-09-30,f3941f36c80629a3,,blood,Staphylococcus aureus,OXA
+MRSA,2021-10-04,c2d0ca5ad3f04272,,blood,Staphylococcus aureus,OXA
+MRSA,2021-10-05,c27b823fcb2ce1a0,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-06,546fe01ec9d7cefd,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-08,e9e7524928020796,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-09,0fc029cabb577bb4,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-10,876b2a4317e2b842,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-13,2002490b51e6fdad,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-13,af5913ff7adcb4f1,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-19,e229b3ffd66e2948,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-19,04373a180017d229,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-20,e247e6252cefccdb,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-20,04d1d975e265b5d1,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-20,2d3dde4a2528498e,,blood,Staphylococcus aureus,"OXA, FOX"
+MRSA,2021-10-21,c90f821b8b9d2fcb,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-22,654d87ea39accb06,,blood,Staphylococcus aureus,OXA
+MRSA,2021-10-25,40fda13787c9f2a8,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-25,2c2f2e3ea5f2c895,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-27,51350d83e5d0f0c5,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-28,ddff4e232c09c2d8,,blood,Staphylococcus aureus,FOX
+MRSA,2021-10-29,3bcab339983a88d4,,blood,Staphylococcus aureus,OXA
+MRSA,2021-10-31,ddfcd9c45476b131,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-01,f55b71d3c656dfb2,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-02,9c8d3ae2b3750e9e,,blood,Staphylococcus aureus,OXA
+MRSA,2021-11-02,c813277ed280cd5b,,blood,Staphylococcus aureus,OXA
+MRSA,2021-11-03,81d884595b60c802,,blood,Staphylococcus aureus,OXA
+MRSA,2021-11-03,c5c37db04d03f0bc,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-04,dc8d97da430fffa3,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-07,c4a48727ee8640b6,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-08,1e1afae2a3ad0f3e,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-09,942c484d3ce359a4,,blood,Staphylococcus aureus,OXA
+MRSA,2021-11-09,224ab5d13af3cda5,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-10,b1fa63bad8f2bb10,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-11,dbb8ef8c507c1f67,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-11,8c5e7d9b80d0ff77,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-13,06524c3bb7e89caf,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-14,3c5c495441cc3a58,,blood,Staphylococcus aureus,OXA
+MRSA,2021-11-15,42adc12fb18d16a4,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-17,7afbb970f9d5c87f,,blood,Staphylococcus aureus,OXA
+MRSA,2021-11-17,167b8fa4ff475d36,,blood,Staphylococcus aureus,OXA
+MRSA,2021-11-17,932ef9eeb6f57051,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-18,26a3c6470e16cb32,,blood,Staphylococcus aureus,OXA
+MRSA,2021-11-19,c7b1ff6137073036,,blood,Staphylococcus aureus,OXA
+MRSA,2021-11-20,fde82fdd6c9aaf02,,blood,Staphylococcus aureus,OXA
+MRSA,2021-11-21,297a50d58cac34cb,,blood,Staphylococcus aureus,OXA
+MRSA,2021-11-21,6161a76cd224ca8b,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-25,a8981c0e72f5aa98,,blood,Staphylococcus aureus,FOX
+MRSA,2021-11-29,13fb9e3a00bfce0a,,blood,Staphylococcus aureus,FOX
+MRSA,2021-12-01,de341b4d49308a8b,,blood,Staphylococcus aureus,FOX
+MRSA,2021-12-02,da44111b48811690,,blood,Staphylococcus aureus,FOX
+MRSA,2021-12-09,906f0929a9454466,,blood,Staphylococcus aureus,FOX
+MRSA,2021-12-09,f0a342a67c54ffd2,,blood,Staphylococcus aureus,FOX
+MRSA,2021-12-20,498662967bd6e8b6,,blood,Staphylococcus aureus,FOX
+MRSA,2021-12-20,87760f2b76b9497f,,blood,Staphylococcus aureus,FOX
+MRSA,2021-12-23,659e015075b98e62,,blood,Staphylococcus aureus,FOX
+MRSA,2021-12-29,b8acf4ea2396e7fa,,blood,Staphylococcus aureus,FOX
+MRSA,2021-12-29,d4a63bbf969a524b,,blood,Staphylococcus aureus,FOX
+MRSA,2021-12-29,92bb71597f9668f9,,blood,Staphylococcus aureus,FOX
+MRSA,2021-12-29,351be437199016c8,,blood,Staphylococcus aureus,FOX
+MRSA,2022-01-01,7348ff8c9be912fa,,blood,Staphylococcus aureus,OXA
+MRSA,2022-01-01,8fde2626c2e9b46f,,blood,Staphylococcus aureus,OXA
+MRSA,2022-01-04,b225f24a95601547,,blood,Staphylococcus aureus,FOX
+MRSA,2022-01-04,bd08f39f85f2554f,,blood,Staphylococcus aureus,FOX
+MRSA,2022-01-05,7097eb4a2a7df3fc,,blood,Staphylococcus aureus,FOX
+MRSA,2022-01-07,546072031b8d819f,,blood,Staphylococcus aureus,FOX
+MRSA,2022-01-19,e70f872c276d9447,,blood,Staphylococcus aureus,FOX
+MRSA,2022-01-21,90384033e5b5ac5a,,blood,Staphylococcus aureus,FOX
+MRSA,2022-01-25,0b48b56ce19196f2,,blood,Staphylococcus aureus,FOX
+MRSA,2022-01-26,fc0ae872035b1d4b,,blood,Staphylococcus aureus,FOX
+MRSA,2022-01-30,687188abd19a030e,,blood,Staphylococcus aureus,FOX
+MRSA,2025-05-31,2c73155f3efb377c,,missing,Staphylococcus aureus,FOX
+VRE,2019-12-24,69e6fbfb1e733d91,,Rectal Swab,Enterococcus faecium,VAN
+VRE,2020-01-10,5396951b25a63a6d,,blood,Enterococcus faecium,VAN
+VRE,2020-01-14,8ab6b1b5a3bc413f,,Rectal Swab,Enterococcus faecium,VAN
+VRE,2020-02-06,96c1e59fed91dd73,,Liquor,Enterococcus faecium,VAN

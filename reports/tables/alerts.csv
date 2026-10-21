@@ -1,0 +1,3 @@
+alert,date,patient,ward,specimen,organism,resistant_to
+CR Pseudomonas aeruginosa,2009-06-10,29a69157d8102e25,Clinical,,Pseudomonas aeruginosa,IPM
+MRSA,2003-02-26,d9640883216b7006,Outpatient,,Staphylococcus aureus,FLC

@@ -1,0 +1,57 @@
+lab_column,standard
+Identification number,patient
+Specimen date,date
+Organism,organism
+Sex,gender
+Age,age
+Location,ward
+Specimen type,specimen
+Specimen number,ignore
+Country,ignore
+Laboratory,ignore
+Last name,ignore
+First name,ignore
+Age category,ignore
+Date of admission,ignore
+Specimen type (Numeric),ignore
+Reason,ignore
+Isolate number,ignore
+Organism type,ignore
+Serotype,ignore
+Beta-lactamase,ignore
+ESBL,ignore
+Carbapenemase,ignore
+MRSA screening test,ignore
+Inducible clindamycin resistance,icr
+Comment,ignore
+Date of data entry,ignore
+PATIENT_ID,patient
+SPEC_DATE,date
+ORGANISM,organism
+SEX,gender
+AGE,age
+WARD,ward
+SPEC_TYPE,specimen
+COUNTRY_A,ignore
+LABORATORY,ignore
+LAST_NAME,ignore
+FIRST_NAME,ignore
+DATE_BIRTH,ignore
+AGE_GRP,ignore
+PAT_TYPE,ignore
+INSTITUT,ignore
+DEPARTMENT,ignore
+WARD_TYPE,ignore
+DATE_ADMIS,ignore
+SPEC_NUM,ignore
+SPEC_CODE,ignore
+ISOL_NUM,ignore
+ORG_TYPE,ignore
+SEROTYPE,ignore
+BETA_LACT,ignore
+ESBL,ignore
+CARBAPENEM,ignore
+MRSA_SCRN,ignore
+INDUC_CLI,icr
+COMMENT,ignore
+DATE_DATA,ignore
