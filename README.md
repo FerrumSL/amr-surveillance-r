@@ -12,6 +12,10 @@ It reads exports with any column names (through a column map), WHONET exports (a
 map is included), and S/I/R results or raw MIC and disk-zone values, which it interprets with
 one stated EUCAST or CLSI version.
 
+Because every value is read with that one version, its trends cannot show how much of a change
+came from a breakpoint revision. [breakpoint-drift](https://github.com/FerrumSL/breakpoint-drift)
+does that split.
+
 ## Example: public NCBI isolates
 
 ![Cumulative antibiogram, 1998-2025, of 2,004 human isolates from NCBI BioSample interpreted with CLSI 2025: percentage susceptible for A. baumannii, E. coli, K. pneumoniae, P. aeruginosa, E. faecium and S. aureus by drug grouped by class, shaded in six blue bands from 90% or more (lightest) to under 20% (darkest); IR marks intrinsic resistance](reports/ncbi/figures/antibiogram.png)
