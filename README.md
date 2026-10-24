@@ -12,9 +12,9 @@ It reads exports with any column names (through a column map), WHONET exports (a
 map is included), and S/I/R results or raw MIC and disk-zone values, which it interprets with
 one stated EUCAST or CLSI version.
 
-Because every value is read with that one version, its trends cannot show how much of a change
-came from a breakpoint revision. [breakpoint-drift](https://github.com/FerrumSL/breakpoint-drift)
-does that split.
+Reading every year with that one version keeps its trends free of breakpoint revisions, but it
+cannot say how much the antibiograms a lab published at the time were moved by them.
+[breakpoint-drift](https://github.com/FerrumSL/breakpoint-drift) does that split.
 
 ## Example: public NCBI isolates
 
